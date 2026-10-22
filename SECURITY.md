@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Please do not open a public issue. Use GitHub's **private vulnerability reporting** on the affected repository (Security tab, "Report a vulnerability"). Include what you found, how to reproduce it, and the version or commit.
+Please do not open a public issue. The maintainer, @007dude, receives these reports. Use GitHub's **private vulnerability reporting** on the affected repository (Security tab, "Report a vulnerability"). Include what you found, how to reproduce it, and the version or commit.
 
 You will get an acknowledgement, and we will keep you updated until it is resolved. Please give us reasonable time to fix an issue before disclosing it.
 
