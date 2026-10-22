@@ -47,4 +47,6 @@ Early. Works today with Claude Code and Codex on Linux and macOS, on one machine
 | `SDK`, `MCP`, cookbooks, `.github` | Apache-2.0 (open source) |
 | `core` | Proprietary, all rights reserved |
 
+Copyright (c) 2026 RyeDB. All rights reserved, except where a repository's licence grants more.
+
 Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
