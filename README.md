@@ -1,5 +1,14 @@
 # RyeDB organisation defaults
 
-Community health files that apply to every repository in the organisation that does not define its own: contributing guide, code of conduct, security policy, issue forms and the pull request template.
+Community health files that apply to every repository in the organisation that does not define its own, and the public profile.
 
-The public organisation profile is in [`profile/README.md`](profile/README.md).
+| File | Purpose |
+|---|---|
+| [`profile/README.md`](profile/README.md) | The organisation's public profile |
+| [`CONTRIBUTING.md`](CONTRIBUTING.md) | How to propose a change |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor Covenant 2.1, and how to report |
+| [`SECURITY.md`](SECURITY.md) | How to report a vulnerability (private reporting) |
+| `ISSUE_TEMPLATE/`, [`PULL_REQUEST_TEMPLATE.md`](PULL_REQUEST_TEMPLATE.md) | Issue forms and the pull request template |
+| `.github/CODEOWNERS` | Who must review changes here |
+
+Changes here apply to every repository that does not carry its own copy, so keep them small and say what they affect.
