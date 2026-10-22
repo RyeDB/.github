@@ -40,4 +40,4 @@ flowchart LR
 
 Early. Works today with Claude Code and Codex on Linux and macOS, on one machine. Not yet: published packages, Windows, hosted sync, team memory, Codex subagent coverage. Every claim about effect is measured on small tests with the raw data and the limits written next to it (see core's `docs/BENCHMARKS.md`), including results that did not favour RyeDB.
 
-Licensed under Apache-2.0. Report a vulnerability through [SECURITY.md](../SECURITY.md).
+Licensed under Apache-2.0. Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
