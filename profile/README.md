@@ -1,8 +1,8 @@
-# RyeDB
+# RyeDB™
 
 **Persistent memory and a message channel for coding agents.**
 
-Coding agents lose their place when the context is compacted, repeat approaches that already failed, and start subagents blind. RyeDB keeps project memory in a local database next to your code and puts a small, budgeted brief back into every agent and subagent. A rule a human has verified can stop a tool call before it runs.
+Coding agents lose their place when the context is compacted, repeat approaches that already failed, and start subagents blind. RyeDB™ keeps project memory in a local database next to your code and puts a small, budgeted brief back into every agent and subagent. A rule a human has verified can stop a tool call before it runs.
 
 ```mermaid
 flowchart LR
@@ -13,7 +13,7 @@ flowchart LR
   end
   agents -->|hooks: before and after every tool call| D
   agents -->|MCP tools| D
-  D[RyeDB daemon<br/>one per project, local] --> DB[(SQLite)]
+  D[RyeDB™ daemon<br/>one per project, local] --> DB[(SQLite)]
   D -->|brief, warnings, inbox| agents
   P[Programs, CI, workers] -->|channel port or SDK| D
   H[A person] -->|verify, retire, issue credentials| D
@@ -50,3 +50,7 @@ Early. Works today with Claude Code and Codex on Linux and macOS, on one machine
 Copyright (c) 2026 RyeDB. All rights reserved, except where a repository's licence grants more.
 
 Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
+
+---
+
+RyeDB™ is a trademark of RyeDB. The Apache-2.0 licence covers the code; it does not grant permission to use the name or logo (section 6).
