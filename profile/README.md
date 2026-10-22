@@ -31,13 +31,13 @@ flowchart LR
 
 | Repository | What it is |
 |---|---|
-| [`core`](https://github.com/RyeDB/core) | The engine, daemon, hooks, MCP server and CLI. Start here: quickstart, concepts, guides, benchmarks, threat model |
-| [`MCP`](https://github.com/RyeDB/MCP) | The MCP server's public home: tool contract, client setup, conformance tests |
-| [`SDK`](https://github.com/RyeDB/SDK) | TypeScript client for RyeChannel |
+| `core` | The engine, daemon, hooks, MCP server and CLI. Developed in a private repository; not publicly available yet |
+| [`MCP`](https://github.com/RyeDB/MCP) | The agent tool contract, client setup and conformance tests: the public interface of the MCP server |
+| [`SDK`](https://github.com/RyeDB/SDK) | TypeScript client for RyeChannel (the agent-to-agent channel) |
 | [`.github`](https://github.com/RyeDB/.github) | This profile, contributing guide, security policy, issue and PR templates |
 
 ## Honest status
 
-Early. Works today with Claude Code and Codex on Linux and macOS, on one machine. Not yet: published packages, Windows, hosted sync, team memory, Codex subagent coverage. Every claim about effect is measured on small tests with the raw data and the limits written next to it (see core's `docs/BENCHMARKS.md`), including results that did not favour RyeDB.
+Early. Works today with Claude Code and Codex on Linux and macOS, on one machine. Not yet: public availability of core, Windows, hosted sync, team memory, Codex subagent coverage. Every claim about effect comes from small tests whose raw data and limits are kept with the code, including results that did not favour RyeDB.
 
 Licensed under Apache-2.0. Report a vulnerability through [SECURITY.md](https://github.com/RyeDB/.github/blob/main/SECURITY.md).
