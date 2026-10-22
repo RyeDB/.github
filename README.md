@@ -1,4 +1,4 @@
-# RyeDB organisation defaults
+# RyeDB™ organisation defaults
 
 Community health files that apply to every repository in the organisation that does not define its own, and the public profile.
 
@@ -12,3 +12,7 @@ Community health files that apply to every repository in the organisation that d
 | `.github/CODEOWNERS` | Who must review changes here |
 
 Changes here apply to every repository that does not carry its own copy, so keep them small and say what they affect.
+
+---
+
+RyeDB™ is a trademark of RyeDB. The Apache-2.0 licence covers the code; it does not grant permission to use the name or logo (section 6).
